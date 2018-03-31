@@ -10,6 +10,10 @@ end
 gem 'rails', '~> 5.1.5'
 
 gem 'rails-i18n'
+# Flexible authentication solution for Rails with Warden.
+gem 'devise'
+# Translations for the devise gem
+gem 'devise-i18n'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
